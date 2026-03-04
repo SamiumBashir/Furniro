@@ -44,12 +44,14 @@ img{
 .btn{
     background-color: var(--primary-color);
     color: #ffffff;
-    padding: 1.5rem 4.5rem;
+    padding: 25px 72px;
     transition: background-color 0.3s ease;
+    font-weight: 700;
 }
 
 .btn-lg{
-    padding: 0.5ram 3.5rem; 
+    padding: 0.5rem 3.5rem; 
+    font-weight: 600;
 }
 
 .btn:hover,
@@ -355,7 +357,7 @@ p{
   padding: 44px 4%;
   background-color: var(--bg-color);
   overflow: hidden;
-  background: var(--secondary-color);
+  background: #FCF8F3;
 }
 
 .inspiration__flex{
@@ -451,8 +453,8 @@ p{
 }
 
 .dot.active {
-  background: var(--gold);
-  outline: 1px solid var(--gold);
+  background: var(--primary-color);
+  outline: 1px solid var(--primary-color);
   outline-offset: 4px;
 }
 
