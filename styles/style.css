@@ -87,19 +87,24 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 29px 100px 30px 54px;
+    padding: 30px 54px;
 }
 
-.header__logo{
-    width: 50px;
-    height: 32px;
+.header__logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo__content{
+    display: flex;
+    align-items: center;
 }
 
 .header__logo h1{
     font-size: 34px;
     font-family: "Montserrat", sans-serif;
-    /* font-weight: 700;
-    line-height: 100%; */
+    font-weight: 700;
+    line-height: 100%;
 }
 
 .header__logo{
