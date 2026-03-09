@@ -87,17 +87,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 54px;
-}
-
-.header__logo img{
-    width: 70px;
-    height: 70px;
-}
-
-.logo__content{
-    display: flex;
-    align-items: center;
+    padding: 15px 54px;
 }
 
 .header__logo h1{
@@ -228,12 +218,14 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 .range__card img{
     width: 380px;
     height: 480px;
     object-fit: cover;
+    object-position: left;
     border-radius: 10px;
 }
 
@@ -246,6 +238,8 @@ img{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -263,9 +257,8 @@ img{
 
 .product__grid-box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(285px,1fr));
-    gap: 15px;
-    grid-auto-rows: 446px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
 }
 
 .product__grid-card{
@@ -345,17 +338,31 @@ img{
     line-height: 150%;
 }
 
-.product__more{
-    text-align: center;
-}
-
 .product__grid__content{
-    padding: 0 15px;
+    padding: 16px 20px 30px 16px;
 }
 
-.product__grid__content h3,
-p{
+.product__grid__content h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #3A3A3A;
+}
+
+.product__grid__content h4
+{
     margin-bottom: 8px;
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 20px;
+    color: #3A3A3A;
+}
+
+.product__grid__content p{
+    color: #898989;
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 16px;
 }
 
 .inspiration{
@@ -374,7 +381,7 @@ p{
 
 .inspiration__content {
   flex: 1;
-  max-width: 400px;
+  max-width: 422px;
 }
 
 .inspiration__content h1 {
@@ -405,7 +412,7 @@ p{
 .inspiration__gallery {
   flex: 2;
   display: flex;
-  gap: 20px;
+  gap: 24px;
   position: relative;
 }
 
@@ -469,8 +476,8 @@ p{
   right: -20px;
   background: white;
   color: var(--primary-color);
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   display: flex;
   align-items: center;
