@@ -298,9 +298,12 @@ img{
     font-size: 14px;
 }
 
-.product__actions__icon{
-    color: #ffffff;
+.product__actions__icon {
+    display: flex;
+    gap: 8px;
+    align-items: center;
     cursor: pointer;
+    color: #ffffff;
 }
 
 .batch{
