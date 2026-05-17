@@ -32,7 +32,7 @@ img{
 }
 
 .hide{
-    display: none;
+    display: block;
 }
 
 .container-lg{
@@ -839,6 +839,7 @@ img{
     .next-arrow {
         top: 5%;
         right: 5%;
+        display: none;
     }
 
     .furniture-grid__container {
@@ -891,6 +892,10 @@ img{
 
     .inspiration__content h1 {
         font-size: 28px;
+    }
+
+    .hide{
+        display: none;
     }
 
     .range__card-box {
