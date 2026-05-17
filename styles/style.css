@@ -681,9 +681,66 @@ img{
     color: #000000;
 }
 
+/* Landscape tablets (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .header__flex {
+        padding: 15px 30px;
+    }
+
+    .header__menu-items {
+        gap: 40px;
+    }
+
+    .header__icon-items {
+        gap: 30px;
+    }
+
+    .hero__container {
+        height: 70vh;
+        padding: 8%;
+    }
+
+    .hero__content {
+        max-width: 550px;
+    }
+
+    .hero__content__heading h1 {
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+
+    .range__card img {
+        width: 320px;
+        height: 400px;
+    }
+
+    .product__grid-box {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+    }
+
+    .inspiration__gallery {
+        gap: 16px;
+    }
+
+    .inspiration__first img {
+        width: 350px;
+        height: 450px;
+    }
+
+    .inspiration__second img {
+        width: 320px;
+        height: 420px;
+    }
+
+    .inspiration__third img {
+        width: 180px;
+        height: 420px;
+    }
+}
+
 /* Responsive Media Queries */
 
-/* Tablet (481px - 768px) */
 @media (max-width: 768px) {
     .header__flex {
         padding: 12px 20px;
@@ -841,6 +898,7 @@ img{
         margin-top: 40px;
     }
 }
+
 
 /* Mobile (max-width 480px) */
 @media (max-width: 480px) {
@@ -1165,61 +1223,6 @@ img{
     }
 }
 
-/* Landscape tablets (769px - 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .header__flex {
-        padding: 15px 30px;
-    }
 
-    .header__menu-items {
-        gap: 40px;
-    }
 
-    .header__icon-items {
-        gap: 30px;
-    }
-
-    .hero__container {
-        height: 70vh;
-        padding: 8%;
-    }
-
-    .hero__content {
-        max-width: 550px;
-    }
-
-    .hero__content__heading h1 {
-        font-size: 2.5rem;
-        line-height: 45px;
-    }
-
-    .range__card img {
-        width: 320px;
-        height: 400px;
-    }
-
-    .product__grid-box {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 28px;
-    }
-
-    .inspiration__gallery {
-        gap: 16px;
-    }
-
-    .inspiration__first img {
-        width: 350px;
-        height: 450px;
-    }
-
-    .inspiration__second img {
-        width: 320px;
-        height: 420px;
-    }
-
-    .inspiration__third img {
-        width: 180px;
-        height: 420px;
-    }
-}
 
