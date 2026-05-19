@@ -54,6 +54,25 @@
         width: 180px;
         height: 420px;
     }
+
+    /* Responsive Design for Shopping Page */
+
+    .hero__shop-container {
+        height: 40vh;
+        padding: 8%;
+    }
+
+    .hero__shop-content h1 {
+        font-size: 40px;
+    }
+
+    .hero__shop-nav ul {
+        gap: 8px;
+    }
+
+    .hero__shop-nav a {
+        font-size: 14px;
+    }
 }
 
 /* Responsive Media Queries */
@@ -94,6 +113,27 @@
 
     .hero__content__description p {
         font-size: 16px;
+    }
+
+    /* Responsive Design For Shopping Page */
+
+    .hero__shop-container {
+        height: 35vh;
+        padding: 5%;
+    }
+
+    .hero__shop-content h1 {
+        font-size: 32px;
+    }
+
+    .hero__shop-nav ul {
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero__shop-nav a {
+        font-size: 13px;
     }
 
     .btn {
@@ -280,6 +320,30 @@
     .hero__content__description p {
         font-size: 14px;
         margin-bottom: 1.5rem;
+    }
+
+    /* Responsive Design For Shopping Page */
+
+    .hero__shop-container {
+        height: 30vh;
+        padding: 3%;
+    }
+
+    .hero__shop-content h1 {
+        font-size: 24px;
+    }
+
+    .hero__shop-nav ul {
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .hero__shop-nav a {
+        font-size: 12px;
+    }
+
+    .hero__shop-nav img {
+        width: 16px;
     }
 
     .btn {

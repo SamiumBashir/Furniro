@@ -1,24 +1,60 @@
 .hero__shop-container {
-  background: url(/Image/hero-shop.jpg) center/cover no-repeat;
+  position: relative;
   width: 100%;
   height: 50vh;
   padding: 10%;
+  overflow: hidden;
 }
 
-.hero__shop-content{
+.hero__shop-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/Image/hero-shop.jpg) center/cover no-repeat;
+  filter: blur(5px);
+  opacity: 50%;
+  z-index: 1;
+}
+
+.hero__shop-content {
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
-.hero__shop-content h1{
+.hero__shop-content h1 {
     font-weight: 500;
     font-size: 48px;
     padding-bottom: 2px;
+    color: #000000;
+    margin: 0;
 }
 
-.hero__shop-nav ul{
-display: flex;
-gap: 10px;
+.hero__shop-nav {
+    margin-top: 20px;
+}
+
+.hero__shop-nav ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero__shop-nav a:hover {
+    opacity: 0.7;
+}
+
+.hero__shop-nav img {
+    width: 14px;
+    margin-top: 5px;
 }
