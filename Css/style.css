@@ -16,6 +16,7 @@ body{
   --secondary-color: #FFF3E3;
   --tertiary-color: #898989; 
   --black: #000000;
+  --white: #ffffff;
 }
 
 a{
@@ -47,7 +48,7 @@ img{
 
 .btn{
     background-color: var(--primary-color);
-    color: #ffffff;
+    color: var(--white);
     padding: 25px 72px;
     transition: background-color 0.3s ease;
     font-weight: 700;
@@ -61,13 +62,13 @@ img{
 .btn:hover,
 .btn-lg:hover
 {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
 
 .btn-secondary{
-    background-color: #ffffff;
+    background-color: var(--white);
     color: var(--primary-color);
     padding: 0.5rem 3.5rem;
     border: 1px solid var(--primary-color);
@@ -75,7 +76,7 @@ img{
 
 .btn-secondary:hover{
     background-color: var(--primary-color);
-    color: #ffffff;
+    color: var(--white);
     padding: 0.5rem 3.5rem;
     transition: background-color 0.3s ease;
 }
@@ -84,7 +85,7 @@ img{
     position: sticky;
     top: 0;
     z-index: 10000;
-    background: #ffffff;
+    background: var(--white);
 }
 
 .header__flex{
