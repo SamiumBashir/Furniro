@@ -206,7 +206,7 @@
     border-radius: 10px;
     background-color: #F9F1E7;
     border: none;
-    padding: 15px 24px;
+    padding: 1rem 1.5rem;
 }
 
 .pagination_btn:hover, 
@@ -214,4 +214,66 @@
     background-color: #B88E2F;
     color: #ffffff;
     cursor: pointer;
+}
+
+.shop__toolbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F9F1E7;
+    padding: 2rem 0;
+}
+
+
+.toolbar__left{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.filter__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: none;
+    background-color: #F9F1E7;
+    cursor: pointer;
+}
+
+.filter__btn p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.view__options{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.grid__view-btn,
+.list__view-btn{
+    border: none;
+    cursor: pointer;
+}
+
+.results__count{
+    border-left: 1px solid black;
+    padding-left: 2rem;
+    font-weight: 400;
+}
+
+.toolbar__right{
+    display: flex;
+    gap: 1.75rem;
+    font-size: 1.25rem;
+}
+
+.count__btn,
+.sort__select{
+    background-color: #FFFFFF;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    color: #9F9F9F;
+    font-size: 1.25rem;
 }
